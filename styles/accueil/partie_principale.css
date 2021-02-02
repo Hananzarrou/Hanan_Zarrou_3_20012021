@@ -1,0 +1,64 @@
+.localisation {
+    background: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 5px 5px #dddddd;
+  }
+  .bar_search input {
+    width: 150px;
+    text-align: center;
+    border: none;
+    background: #eaeaea;
+    font-size: 1rem;
+    padding: 20px 5px 20px 5px;
+    margin-top: 5px;
+  }
+  .titres {
+    background: #f6f6f6;
+    text-align: center;
+    width: 100%;
+    padding: 40px 0;
+  }
+  .titres h2 {
+    font-weight: bold;
+  }
+  .titres p {
+    color: #4d4d4d;
+  }
+  .btn_titre button {
+    font-weight: bold;
+    box-shadow: 4px 4px 6px #aaa;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, #f09fd9,#e070ec,#b35cdc,#945cd8,#9356DC );
+    border: 0px solid transparent;
+    border-radius: 30px;
+    padding: 17px 11px;
+    color:white; 
+  }
+  .btn_titre button:hover {
+    box-shadow: 2px 2px 2px 2px #000;
+  }
+@media screen and (max-width: 455px) {
+  .titres p{
+    font-size:1.15em;
+    width:80%;
+    padding:0 48px;
+  }
+  .titres h2{
+    width: 63%;
+    padding: 0px 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn_titre button {
+    padding: 17px 11px;
+    width:210px;
+  }
+}
+  
+  
+
+
+  

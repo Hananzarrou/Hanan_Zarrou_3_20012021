@@ -1,0 +1,28 @@
+.header_titre{
+  text-align: center;
+}
+.header_titre h1 {
+    text-align: center;
+  }
+@media screen and (min-width: 1201px) {
+  .header_titre img{
+    width:20%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .header_titre img{
+    width:25%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header_titre img{
+    width:40%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header_titre img{
+    width:40%;
+  }
+}
+
+

@@ -1,0 +1,18 @@
+ .menu_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  .retour{
+    left: 20px;
+    position: absolute;
+    
+}
+.menu_header img{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:30%;
+    padding:20px;
+}
+ 
