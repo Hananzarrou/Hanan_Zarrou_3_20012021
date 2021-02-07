@@ -5,6 +5,7 @@
   }
   .resto_titre h3 {
     padding: 30px 0px 0px 10px;
+    font-size: 1.3em;
   }
   .accomodation {
     border-radius: 25px;
@@ -61,6 +62,17 @@
     -webkit-text-fill-color: transparent;
     font-weight: bold;
   }
+  @keyframes fill {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 @media screen and (min-width: 768px) {
   .resto_titre{
     width: 100%;
@@ -81,7 +93,9 @@
 @media screen and (min-width: 1600px) {
   .resto_global{
     padding: 0 20%;
+  
   }
+  
 }
 @media screen and (max-width: 455px) {
   .resto_titre{

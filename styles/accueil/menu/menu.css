@@ -31,6 +31,14 @@
     animation: fadein 3s ease-in-out;
     width: 400px;
 }
+@keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
 .entree h3, .plat h3, .dessert h3 {
     padding-left: 10px;
     text-transform: uppercase;
@@ -60,6 +68,14 @@
 .bloc:hover .fa-check-circle {
     transform: rotate(360deg);
 } 
+@keyframes rotate {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+}
 .bloc h4{
     margin-left:1px;
 }
@@ -111,6 +127,8 @@
     width:30%;
     animation: fadein 20s ease-in-out;
 }
+
+
 
 .demander{
     display: flex;
