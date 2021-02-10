@@ -71,17 +71,12 @@
     margin: 70px 0;
     width:52%;
   }
-  
-
-  
-
 }
 @media screen and (min-width: 768px){
   .fonctionnement{
     display:flex;
     flex-direction:column;
-    align-items: center;
-    
+    align-items: center; 
   }
   .fonct_button{
     padding-right: 50px; 
@@ -109,12 +104,10 @@
   }
 }
 
-
 @media screen and (max-width: 650px) {
   .fonct_titre h3{
     margin-right:98px;
     font-size: 1.3em;
-
   }
   .fonct_button{
     padding-right: 20px;
