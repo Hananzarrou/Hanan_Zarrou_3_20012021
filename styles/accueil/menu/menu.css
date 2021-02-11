@@ -68,6 +68,9 @@
 .bloc:hover .fa-check-circle {
     transform: rotate(360deg);
 } 
+.bloc{
+    animation: fadein 500ms ease-in-out;
+}
 @keyframes rotate {
     from {
       -webkit-transform: rotate(0deg);
@@ -121,11 +124,11 @@
 }
 .dessert {
     width:30%;
-    animation: fadein 20s ease-in-out;
+    animation: fadein 15s ease-in-out;
 }
 .plat{
     width:30%;
-    animation: fadein 20s ease-in-out;
+    animation: fadein 7s ease-in-out;
 }
 
 
