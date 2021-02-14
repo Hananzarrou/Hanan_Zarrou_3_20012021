@@ -1,12 +1,18 @@
-.test {
-  background: blue;
-}
+/* Error: Undefined mixin.
+ *   ,
+ * 2 |     @include btn-acomoda;
+ *   |     ^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   assets\scss\Components\_btn-acomoda.scss 2:5  @import
+ *   assets\scss\styles.scss 3:9                   root stylesheet */
 
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  font-size: 1rem;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a   \2577 \a 2 \2502      @include btn-acomoda;\d\a   \2502      ^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   assets\\scss\\Components\\_btn-acomoda.scss 2:5  @import\a   assets\\scss\\styles.scss 3:9                   root stylesheet";
 }
-
-/*# sourceMappingURL=css.map */
