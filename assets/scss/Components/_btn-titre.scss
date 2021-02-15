@@ -1,5 +1,5 @@
-.btn_titres button{
-    @include btn-titres;
+.btn_titre button{
+    @include btn-titre;
     &:hover {
         background-color: lighten(#9356dc, 10%);
         background-blend-mode: lighten;
