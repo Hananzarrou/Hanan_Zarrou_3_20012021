@@ -2,16 +2,6 @@
 @import "./Base/base", "./Base/typo";
 @import "./Components/btn-acomoda", "./Components/btn-titres", "./Components/fonct-btn", "./Components/localisation", "./Components/coeur-icon", "./Components/menu-header";
 @import "./Layout/fonctionnement", "./Layout/footer", "./Layout/header", "./Layout/menu", "./Layout/resto", "./Layout/titres";
-@import "./Utiles/variables", "./Utiles/mixins", "./Utiles/functions", "./Utiles/keyframes", "./Utiles/localisation";
+@import "./Utiles/functions", "./Utiles/keyframes", "./Utiles/localisation","./Utiles/mixins", "./Utiles/variables";
 
 
-body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    font-size: 1rem;
- 
-}
-.test{
-    background-color: blue;
-}
