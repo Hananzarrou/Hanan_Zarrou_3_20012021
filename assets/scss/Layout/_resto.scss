@@ -1,0 +1,48 @@
+.resto_titre {
+    @include tablette {
+        width: 100%;
+    }
+}
+.resto_titre h3 {
+    padding: 30px 0px 0px 10px;
+    @include tablette {
+        text-align: center;
+    }
+}
+.accomodation {
+    @include accomodation;
+    @include tablette {
+        width: 40%;
+    }
+}
+.accomodation img {
+    @include accomodation-img ;
+}
+.resto_global {
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    @include tablette {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+    }
+    @include desktop {
+        padding: 0 20%;
+    }
+}
+.coeur {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.accomodation figure {
+    @include accomodation-figure;
+}
+.accomodation figcaption {
+    @include accomodation-figcaption;
+}
+.coeur h4 {
+    margin: 0;
+    font-size: 1.5rem;
+}
