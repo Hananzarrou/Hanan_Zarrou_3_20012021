@@ -1,0 +1,35 @@
+.menu_global {
+    @include menu-global;
+}
+.premier {
+    @include desktop {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+.entree {
+    animation: fadein 3s ease-in-out;
+    @include desktop {
+        width: 400px;
+    }
+}
+.plat {
+    animation: fadein 6s ease-in-out;
+    @include desktop {
+        width: 400px;
+    }
+}
+.dessert {
+    animation: fadein 9s ease-in-out;
+    @include desktop {
+        width: 400px;
+    }
+}
+.bloc_point {
+    @include bloc-point;
+ }
+.line {
+    width: 40px;
+    border: 2px solid $color-tertiary;
+    margin-left: 10px;
+}
