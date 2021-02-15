@@ -7,3 +7,36 @@
         color: #4d4d4d;
     }
    }
+   .fonct_titre {
+    padding-left: 10px;
+    @include desktop {
+        position: absolute;
+        top: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+    }
+}
+.numero {
+    @include fonct-numero;
+    @include tablette {
+        right: 0;
+        top: -15px;
+    }
+}
+.fonct_icon i {
+    color: #b2b2b2;
+    margin: 0 30px;
+}
+.fonctionnement {
+    @include tablette {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+    @include desktop {
+        padding: 0 20%;
+    }
+}
