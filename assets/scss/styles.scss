@@ -1,4 +1,7 @@
 
+.test{
+    background-color: blue;
+}
 @import "./Base/base", "./Base/typo";
 @import "./Components/btn-acomoda", "./Components/btn-titres", "./Components/fonct-btn", "./Components/localisation", "./Components/coeur-icon", "./Components/menu-header";
 @import "./Layout/fonctionnement", "./Layout/footer", "./Layout/header", "./Layout/menu", "./Layout/resto", "./Layout/titres";

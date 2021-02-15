@@ -1,2 +1,2 @@
 
-dart-sass\sass assets/scss/st-watchs\Openclassroms\yles.scss:styles/accueil/css --watch
+dart-sass\sass assets/scss/styles.scss:styles/accueil/css --watch
