@@ -32,7 +32,12 @@
     color: #b2b2b2;
     margin: 0 30px;
   }
-  .fonct_icon i.chang{
+.fonct_icon p {
+  font-family:Roboto, sans-serif;
+  font-size: 1.2em;
+} 
+
+.fonct_icon i.chang{
   color:#9356DC;
 }
 
@@ -115,6 +120,9 @@
     width:300px;
     
   } 
+  .numero{
+    right:32px;
+  }
 }
 @media screen and (max-width: 380px) {
   .fonct_titre h3{

@@ -5,14 +5,16 @@
     width: 100%;
     position: relative;
     margin-top: -50px;
+    /*font-family: Shrikhand, Roboto, sans-serif;*/
   }
 
 .menu_titre {
-    font-family: Shrikhand, sans-serif;
+    /*font-family: Shrikhand, sans-serif;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    font-family:Shrikhand;
 }
 .menu_img img {
     object-fit: cover;
@@ -26,6 +28,8 @@
 .premier{
     display: flex;
     justify-content: space-around;
+    font-family: Roboto, sans-serif;
+    line-height: 0.5em;
 }
 .entree{
     animation: fadein 3s ease-in-out;
@@ -43,6 +47,7 @@
     padding-left: 10px;
     text-transform: uppercase;
     margin-bottom: 5px;
+    
 }
 .bloc {
     background-color: #fff;
@@ -65,7 +70,7 @@
     transform: translate(-50px);
     /*transform:scale(-56px);*/
 }
-.bloc:hover .fa-check-circle {
+.bloc:hover.fa-check-circle .bloc_point{
     transform: rotate(360deg);
 } 
 .bloc{
@@ -73,50 +78,65 @@
 }
 @keyframes rotate {
     from {
-      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
     }
     to {
-      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
     }
 }
 .bloc h4{
     margin-left:1px;
+    margin:7px;
+    padding:4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    
 }
+
 .line2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    line-height: 1.6em;
+    line-height: 1.2em;
+    
 } 
 .line2 p {
-    margin: 0;
+    margin: 7px;
     white-space: nowrap;
     overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
 }
 .bloc_point {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #99E2D0;
-    width: 40px;
-    height: 63px;
+    width: 57px;
+    height: 67px;
     right: -50px;
     top: 0;
     border-top-right-radius: 17px;
     border-bottom-right-radius: 17px;
     position: absolute;
-    padding: 20px;
+    padding: 8px;
     opacity: 0;
-    transition: transform 200ms ease-in-out;
+    transition: transform 330ms ease-in-out;
 }
 .fa-check-circle{
     color: #fff;
-    font-size:30px;
+    font-size:25px;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: transform 300ms ease-in-out;
+    transition: transform 500ms ease-in-out;
 } 
+.bloc_point .fa-check-circle {
+    color: #fff;
+    transition: transform 500ms ease-in-out;
+  }
 .souligner{
     width: 60px;
     border: 2px solid #99E2D0;

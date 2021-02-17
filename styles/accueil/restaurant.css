@@ -14,6 +14,13 @@
     position: relative;
     background: #fff;
   }
+  .accomodation a {
+    text-decoration: none;
+    color:black;
+    font-family: Roboto;
+    font-size:1em;
+  }
+
   .accomodation img {
     object-fit: cover;
     border-top-left-radius: 25px;
@@ -46,7 +53,8 @@
   }
   .coeur h4 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    /*text-decoration: none;*/
   }
   .point_coeur i {
     color: black;
