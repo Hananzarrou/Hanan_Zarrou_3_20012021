@@ -146,6 +146,7 @@
         transition: transform 500ms ease-in-out;
     }
   }
+  
   @mixin tablette {
     @media screen and (min-width:map-get($breakpoints, tablette)){
         @content;
