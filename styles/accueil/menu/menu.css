@@ -97,7 +97,7 @@
     transform: translate(-50px);
     /*transform:scale(-56px);*/
 }
-.bloc:hover.fa-check-circle .bloc_point{
+.bloc:hover.bloc_point.fa-check-circle {
     transform: rotate(360deg);
 } 
 .bloc{
@@ -105,10 +105,10 @@
 }
 @keyframes rotate {
     from {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
     to {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
 }
 .bloc h4{
@@ -159,13 +159,12 @@
     font-size:25px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    transition: transform 500ms ease-in-out;
+    align-items: center;  
 } 
-.bloc_point .fa-check-circle {
+/*.bloc_point .fa-check-circle {
     color: #fff;
     transition: transform 500ms ease-in-out;
-  }
+  }*/
 .souligner{
     width: 60px;
     border: 2px solid #99E2D0;

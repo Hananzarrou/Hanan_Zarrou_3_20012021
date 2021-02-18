@@ -8,7 +8,7 @@
   z-index: 10001;
   top: 0;
   left: 0;
-  animation: loader 1s ease-in-out 2s forwards;
+  animation: loader_global 1s ease-in-out 2s forwards;
 }
 .load {
   width:30%;
@@ -63,7 +63,7 @@
   }
 }
 
-@keyframes loader {
+@keyframes loader_global {
   0% {
     opacity: 1;
   }
@@ -112,42 +112,42 @@
     animation: exemple 600ms linear infinite;
   }
   
-  .circle-1 {
+  .circle1 {
     background-color: #9356DC;
   }
-  .circle-1:before {
+  .circle1:before {
     background-color: #9356DC;
     animation-delay: 200ms;
   }
   
-  .circle-2 {
+  .circle2 {
     background-color: #FF79DA;
   }
-  .circle-2:before {
+  .circle2:before {
     background-color: #FF79DA;
     animation-delay: 400ms;
   }
   
-  .circle-3 {
+  .circle3 {
     background-color: #99E2D0;
   }
-  .circle-3:before {
+  .circle3:before {
     background-color: #99E2D0;
     animation-delay: 600ms;
   }
   
-  .circle-4 {
+  .circle4 {
     background-color: white;
   }
-  .circle-4:before {
+  .circle4:before {
     background-color: white;
     animation-delay: 800ms;
   }
   
-  .circle-5 {
+  .circle5 {
     background-color: #9356DC;
   }
-  .circle-5:before {
+  .circle5:before {
     background-color: #9356DC;
     animation-delay: 1000ms;
   }
