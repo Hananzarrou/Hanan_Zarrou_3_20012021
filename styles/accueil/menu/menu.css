@@ -152,19 +152,26 @@
     position: absolute;
     padding: 8px;
     opacity: 0;
-    transition: transform 330ms ease-in-out;
+   
+}
+@keyframes exemple{
+    from {
+      /*visibility: hidden;*/
+      transform:rotate(0deg);  
+    }
+    to{
+        transform:rotate(360deg);
+    }
 }
 .fa-check-circle{
     color: #fff;
     font-size:25px;
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center; 
+    animation: exemple 600ms linear infinite;
 } 
-/*.bloc_point .fa-check-circle {
-    color: #fff;
-    transition: transform 500ms ease-in-out;
-  }*/
+
 .souligner{
     width: 60px;
     border: 2px solid #99E2D0;
