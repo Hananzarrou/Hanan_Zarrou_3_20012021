@@ -98,7 +98,7 @@
     /*transform:scale(-56px);*/
 }
 .bloc:hover.bloc_point.fa-check-circle {
-    transform: rotate(360deg);
+    transform: rotate(180deg);
 } 
 .bloc{
     animation: fadein 500ms ease-in-out;
@@ -139,7 +139,7 @@
     font-size:0.9em;
 }
 .bloc_point {
-    display: flex;
+   display: flex;
     justify-content: center;
     align-items: center;
     background-color: #99E2D0;
@@ -152,6 +152,8 @@
     position: absolute;
     padding: 8px;
     opacity: 0;
+    transform:rotate(180deg);
+    transition-duration: 600ms;
    
 }
 @keyframes exemple{
@@ -169,7 +171,9 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    animation: exemple 600ms linear infinite;
+    /*animation: exemple 600ms linear infinite;*/
+    transform:rotate(360deg);
+    transition-duration: 1s;
 } 
 
 .souligner{
