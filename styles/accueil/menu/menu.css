@@ -46,7 +46,7 @@
 }
 .entree h3, .plat h3, .dessert h3 {
     font-weight: normal;
-    padding-left: 10px;
+    padding-left: 35px;
     text-transform: uppercase;
     margin-bottom: 5px;
           
@@ -101,6 +101,15 @@
 } 
 .bloc{
     animation: fadein 500ms ease-in-out;
+}
+.A{
+    animation: fadein 500ms ease-in-out;
+}
+.B{
+    animation: fadein 1000ms ease-in-out;
+}
+.C{
+    animation: fadein 2000ms ease-in-out;
 }
 @keyframes rotate {
     from {
@@ -171,15 +180,15 @@
 .souligner{
     width: 60px;
     border: 2px solid #99E2D0;
-    margin-left: 10px;
+    margin-left: 35px;
 }
 .dessert {
     width:30%;
-    animation: fadein 15s ease-in-out;
+    animation: fadein 2000ms ease-in-out;
 }
 .plat{
     width:30%;
-    animation: fadein 7s ease-in-out;
+    animation: fadein 1000ms ease-in-out;
 }
 .demander{
     display: flex;
