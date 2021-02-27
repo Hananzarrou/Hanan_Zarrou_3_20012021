@@ -92,13 +92,14 @@
 .bloc:hover {
     padding-right: 85px;
 }
-.bloc:hover .bloc_point {
+.bloc:hover .bloc_point{
     opacity: 1;
     transform: translate(-50px);
     /*transform:scale(-56px);*/
 }
-.bloc:hover.bloc_point.fa-check-circle {
-    transform: rotate(180deg);
+.bloc:hover .icon-container{
+    /*transform: rotate(180deg);*/
+    animation:rotate 500ms ease-in-out;
 } 
 .bloc{
     animation: fadein 500ms ease-in-out;
@@ -152,8 +153,8 @@
     position: absolute;
     padding: 8px;
     opacity: 0;
-    transform:rotate(180deg);
-    transition-duration: 600ms;
+    /*transform:rotate(180deg);*/
+    /*transition-duration: 600ms;*/
    
 }
 @keyframes exemple{
@@ -172,8 +173,9 @@
     justify-content: center;
     align-items: center; 
     /*animation: exemple 600ms linear infinite;*/
-    transform:rotate(360deg);
-    transition-duration: 1s;
+    /*transform:rotate(360deg);*/
+    /*transition-duration: 1s;*/
+    /*animation:rotate 500ms ease-in-out;*/
 } 
 
 .souligner{
@@ -189,9 +191,6 @@
     width:30%;
     animation: fadein 7s ease-in-out;
 }
-
-
-
 .demander{
     display: flex;
     justify-content: center;

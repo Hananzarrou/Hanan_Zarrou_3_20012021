@@ -1,6 +1,7 @@
 .footer_global {
   background: #353535;
   color: white;
+  font-family: Roboto sans-serif;
 }
 .titre_footer img {
   width: 14%;
@@ -20,7 +21,7 @@
   list-style-type: none;
   margin: 0;
   padding-left: 20px;
-  line-height: 2.5em; 
+  line-height: 1.5em; 
 }
 ul li a{
   text-decoration: none;

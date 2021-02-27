@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;
+}
 .partie_principale{
   font-family: Roboto;
 }
