@@ -145,6 +145,7 @@
     text-overflow: ellipsis;
     width: 100%;
     font-size:0.9em;
+    padding-left: 3px;
 }
 .bloc_point {
    display: flex;
@@ -152,7 +153,7 @@
     align-items: center;
     background-color: #99E2D0;
     width: 57px;
-    height: 67px;
+    height: 68px;
     right: -50px;
     top: 0;
     border-top-right-radius: 17px;
