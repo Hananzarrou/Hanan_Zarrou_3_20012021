@@ -160,7 +160,8 @@
     border-bottom-right-radius: 17px;
     position: absolute;
     padding: 8px;
-    opacity: 0;  
+    opacity: 0; 
+    transition: transform 330ms ease-in-out;
 }
 @keyframes exemple{
     from {
