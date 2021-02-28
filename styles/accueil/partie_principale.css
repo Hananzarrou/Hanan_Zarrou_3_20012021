@@ -46,8 +46,11 @@ body{
     text-decoration:none;
     color: white;
   }
+  button{
+    border-color:transparent;
+  }
   .btn_titre button:hover {
-    box-shadow: 2px 2px 2px 2px #000;
+    box-shadow: 2px 2px 2px 2px transparent /*#000*/;
   }
 @media screen and (max-width: 455px) {
   .titres p{
