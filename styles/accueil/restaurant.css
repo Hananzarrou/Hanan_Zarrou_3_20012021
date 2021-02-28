@@ -40,7 +40,7 @@
   .nouveau {
     color: #008766;
     background: #99E2D0;
-    border: 5px solid #99E2D0;
+    border: 5px solid transparent;
     border-radius: 5px;
     position: absolute;
     right: 1%;
@@ -64,10 +64,11 @@
     animation:fill 0.3s ease-in-out;
     display: inline-block;
     opacity: 1;
+    background-clip: content-box;
     background: linear-gradient( #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-    background: -webkit-linear-gradient( #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    color:transparent;
     font-weight: bold;
   }
   @keyframes fill {

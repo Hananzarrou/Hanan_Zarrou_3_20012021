@@ -1,14 +1,16 @@
 .footer_global {
   background: #353535;
   color: white;
-  font-family: Roboto sans-serif;
+  font-family: Roboto, sans-serif;
 }
 .titre_footer img {
   width: 14%;
   padding: 20px;
+ 
 }
 .invert{
-  -webkit-filter: invert(100%);
+  /*-webkit-filter: invert(100%);*/
+  filter: invert(100%);
 }
 .nav_footer{
   padding-bottom: 30px;
