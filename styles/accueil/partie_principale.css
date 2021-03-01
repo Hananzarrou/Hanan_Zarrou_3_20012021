@@ -46,8 +46,9 @@ body{
     text-decoration:none;
     color: white;
   }
-  button{
-    border-color:transparent;
+  .btn_titre button{
+    border:none;
+    outline:none;  
   }
   .btn_titre button:hover {
     box-shadow: 2px 2px 2px 2px transparent /*#000*/;
